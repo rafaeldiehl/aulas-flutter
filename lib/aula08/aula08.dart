@@ -121,12 +121,20 @@ class _Aula08State extends State<Aula08> {
                 ),
                 const SizedBox(height: 8),
                 ElevatedButton(
-                    style: ElevatedButton.styleFrom(
-                      minimumSize:
-                          Size(MediaQuery.of(context).size.width * 0.75, 50),
-                    ),
-                    onPressed: _testarCampos,
-                    child: const Text('Login'))
+                  style: ElevatedButton.styleFrom(
+                    minimumSize:
+                        Size(MediaQuery.of(context).size.width * 0.75, 50),
+                  ),
+                  // onPressed: _testarCampos,
+                  onPressed: () {
+                    Navigator.pushNamed(
+                      context,
+                      '/aula09',
+                      arguments: {'nome': 'Rafael'},
+                    );
+                  },
+                  child: const Text('Login'),
+                ),
               ],
             ),
           ),
