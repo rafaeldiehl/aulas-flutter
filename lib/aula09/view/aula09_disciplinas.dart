@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import '../classes/disciplina.dart';
+import 'package:projetobase/aula09/classes/disciplina.dart';
+import 'package:projetobase/aula09/widgets/disciplina_card.dart';
 
 class Aula09Disciplinas extends StatelessWidget {
   const Aula09Disciplinas({super.key});
@@ -10,11 +11,15 @@ class Aula09Disciplinas extends StatelessWidget {
 
     return ListView.builder(
       itemCount: disciplinas.length,
-      itemBuilder: (context, index) => ListTile(
-        leading: Text(disciplinas[index].codigo),
-        title: Text(disciplinas[index].nome),
-        subtitle: Text(disciplinas[index].professor),
+      itemBuilder: (context, index) => DisciplinaCard(
+        disciplina: disciplinas[index],
       ),
     );
   }
 }
+
+/*ListTile(
+        leading: Text(disciplinas[index].codigo),
+        title: Text(disciplinas[index].nome),
+        subtitle: Text(disciplinas[index].professor),
+      ),*/

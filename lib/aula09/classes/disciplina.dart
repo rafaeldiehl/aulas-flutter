@@ -12,114 +12,34 @@ class Disciplina {
   static List<Disciplina> gerarDisciplinas() {
     return [
       Disciplina(
-        codigo: 'PMDE',
+        codigo: 'PDMDE',
         nome: 'Programação para Dispositivos Móveis',
         professor: 'Antonio Dourado',
       ),
       Disciplina(
-        codigo: 'PMDE',
-        nome: 'Programação para Dispositivos Móveis',
-        professor: 'Antonio Dourado',
+        codigo: 'PL1D5',
+        nome: 'Projeto Integrado I',
+        professor: 'Giorjety Licorini Dias',
       ),
       Disciplina(
-        codigo: 'PMDE',
-        nome: 'Programação para Dispositivos Móveis',
-        professor: 'Antonio Dourado',
+        codigo: 'CBGD5',
+        nome: 'Contabilidade Básica e Gerência Financeira',
+        professor: 'Eline Gomes de Oliveira Zioli',
       ),
       Disciplina(
-        codigo: 'PMDE',
-        nome: 'Programação para Dispositivos Móveis',
-        professor: 'Antonio Dourado',
+        codigo: 'AGRD5',
+        nome: 'Administração de Redes',
+        professor: 'Newton Mitsushigue Kamimura',
       ),
       Disciplina(
-        codigo: 'PMDE',
-        nome: 'Programação para Dispositivos Móveis',
-        professor: 'Antonio Dourado',
+        codigo: 'TP2D5',
+        nome: 'Técnicas de Programação II',
+        professor: 'Felipe Alexandre Pazinatto',
       ),
       Disciplina(
-        codigo: 'PMDE',
-        nome: 'Programação para Dispositivos Móveis',
-        professor: 'Antonio Dourado',
-      ),
-      Disciplina(
-        codigo: 'PMDE',
-        nome: 'Programação para Dispositivos Móveis',
-        professor: 'Antonio Dourado',
-      ),
-      Disciplina(
-        codigo: 'PMDE',
-        nome: 'Programação para Dispositivos Móveis',
-        professor: 'Antonio Dourado',
-      ),
-      Disciplina(
-        codigo: 'PMDE',
-        nome: 'Programação para Dispositivos Móveis',
-        professor: 'Antonio Dourado',
-      ),
-      Disciplina(
-        codigo: 'PMDE',
-        nome: 'Programação para Dispositivos Móveis',
-        professor: 'Antonio Dourado',
-      ),
-      Disciplina(
-        codigo: 'PMDE',
-        nome: 'Programação para Dispositivos Móveis',
-        professor: 'Antonio Dourado',
-      ),
-      Disciplina(
-        codigo: 'PMDE',
-        nome: 'Programação para Dispositivos Móveis',
-        professor: 'Antonio Dourado',
-      ),
-      Disciplina(
-        codigo: 'PMDE',
-        nome: 'Programação para Dispositivos Móveis',
-        professor: 'Antonio Dourado',
-      ),
-      Disciplina(
-        codigo: 'PMDE',
-        nome: 'Programação para Dispositivos Móveis',
-        professor: 'Antonio Dourado',
-      ),
-      Disciplina(
-        codigo: 'PMDE',
-        nome: 'Programação para Dispositivos Móveis',
-        professor: 'Antonio Dourado',
-      ),
-      Disciplina(
-        codigo: 'PMDE',
-        nome: 'Programação para Dispositivos Móveis',
-        professor: 'Antonio Dourado',
-      ),
-      Disciplina(
-        codigo: 'PMDE',
-        nome: 'Programação para Dispositivos Móveis',
-        professor: 'Antonio Dourado',
-      ),
-      Disciplina(
-        codigo: 'PMDE',
-        nome: 'Programação para Dispositivos Móveis',
-        professor: 'Antonio Dourado',
-      ),
-      Disciplina(
-        codigo: 'PMDE',
-        nome: 'Programação para Dispositivos Móveis',
-        professor: 'Antonio Dourado',
-      ),
-      Disciplina(
-        codigo: 'PMDE',
-        nome: 'Programação para Dispositivos Móveis',
-        professor: 'Antonio Dourado',
-      ),
-      Disciplina(
-        codigo: 'PMDE',
-        nome: 'Programação para Dispositivos Móveis',
-        professor: 'Antonio Dourado',
-      ),
-      Disciplina(
-        codigo: 'PMDE',
-        nome: 'Programação para Dispositivos Móveis',
-        professor: 'Antonio Dourado',
+        codigo: 'GPRD5',
+        nome: 'Gestão de Projetos',
+        professor: 'Luiz Egidio Costa Cunha',
       ),
     ];
   }
