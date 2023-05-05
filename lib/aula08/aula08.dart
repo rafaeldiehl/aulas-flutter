@@ -47,10 +47,10 @@ class _Aula08State extends State<Aula08> {
     });
   }
 
-  void _testarCampos() {
+  /* void _testarCampos() {
     debugPrint('Usuário: ${_userController.text}');
     debugPrint('Senha: ${_senhaController.text}');
-  }
+  } */
 
   @override
   Widget build(BuildContext context) {
