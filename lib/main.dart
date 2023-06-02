@@ -8,6 +8,7 @@ import 'package:projetobase/aula10/view/aula10_future.dart';
 import 'package:projetobase/aula12/model/carrinho_model.dart';
 import 'package:projetobase/aula12/view/cardapio_view.dart';
 import 'package:projetobase/aula12/view/pedido_view.dart';
+import 'package:projetobase/aula13/theme/color_schemes.g.dart';
 import 'package:provider/provider.dart';
 
 void main() {
@@ -28,9 +29,10 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Flutter Demo',
       theme: ThemeData(
-        primarySwatch: Colors.green,
-        scaffoldBackgroundColor: Colors.white,
+        colorScheme: lightColorScheme,
+        useMaterial3: true,
       ),
+      darkTheme: ThemeData(colorScheme: darkColorScheme, useMaterial3: true),
       initialRoute: '/aula12',
       routes: {
         '/': (context) => const Aula08(),
